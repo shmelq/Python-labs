@@ -1,0 +1,21 @@
+Word1 = input(str('Введите название предмета №1:'))
+Word2 = input(str('Введите название предмета №2:'))
+Word3 = input(str('Введите название предмета №3:'))
+WordLow1 = str.lower(Word1)#нижний регистр
+WordLow2 = str.lower(Word2)
+WordLow3 = str.lower(Word3)
+WordUp1 = str.upper(Word1)#верхний регистр
+WordUp2 = str.upper(Word2)
+WordUp3 = str.upper(Word3)
+Wordup1 = str.capitalize(Word1)#первый символ верхний регистр
+Wordup2 = str.capitalize(Word2)
+Wordup3 = str.capitalize(Word3)
+kol1 = input(str('Введите количество предмета №1 : '))
+kol2 = input(str('Введите количество предмета №2 : '))
+kol3 = input(str('Введите количество предмета №3 : '))
+print(WordLow1, WordLow2, WordLow3)
+print(WordUp1, WordUp2, WordUp3)
+print(Wordup1, Wordup2, Wordup3)
+print('Предмет: {0} | Количество: {1}'.format(Word1, kol1))
+print('Предмет: {0} | Количество: {1}'.format(Word2, kol2))
+print('Предмет: {0} | Количество: {1}'.format(Word3, kol3))
